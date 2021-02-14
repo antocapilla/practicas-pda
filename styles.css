@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+.img-container{
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 1fr;
+    height: 300px;
+}
+
+.introduccion{
+    text-align: center;
+}
+
+.menu{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.featurette-divider {
+    margin: 10px; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+.row {
+    padding-left: 5%;
+
+  }
