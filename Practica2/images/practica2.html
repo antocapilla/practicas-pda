@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <style>
+        header {
+            background : black;
+            color : white;
+            padding: 2%;
+            font-family: 'Consolas', serif;
+        }
+        .navbar{
+            background: black;
+        }
+
+        .genero {
+            margin: 5%;
+            font-family: 'Consolas', serif;
+        }
+
+        .navbar-toggler {
+            background-image: url("https://lh3.googleusercontent.com/proxy/WXhr12Ns8BeJjUVIHg5tL-mAss-LzEYZyG65FYRYAvXtfglg0i-hIWPAb2V4EhDJZvNWDMZ4GVVHNoedLNIO1XTs0gK0CtITw-E");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            }
+
+        .container {
+            background : white;
+            margin : 8%;
+            margin-bottom: 1%
+            padding: 5%;
+        }
+
+        .carousel slide {
+              align-items: start;
+
+        }
+
+        footer {
+            background : black;
+            align-items: start;
+            color : white;
+            padding: 2%;
+            font-family: 'Consolas', serif;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+              <h3 class="navbar-title">Music and Genres</h3>
+              <button class="navbar-toggler collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" color="white">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" color="white">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Version 2.0</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Playlists</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                      <li><a class="dropdown-item" href="https://open.spotify.com/playlist/78d3NavPNIanpz8Hyu3NyO?si=150343e37fe94133">Neo Soul</a></li>
+                      <li><a class="dropdown-item" href="https://open.spotify.com/playlist/7cAstjkCXsL0K9RpKAeUS1?si=c06aa1f5e45b4dd2">Indie-Folk</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form>
+                  <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <section>
+        <div class="container">
+            <h1 class="genero" align="center"><b> Neo Soul </b></h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://wallpapercave.com/wp/wp7448753.jpg" class="d-block w-100" width="50%" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://wallpapercave.com/wp/wp4713172.jpg" class="d-block w-100" width="50%" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://lab.fm/wp-content/uploads/2018/06/anderson-paak-header.jpg" class="d-block w-100" width="50%" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card mb-3" width="70%"  >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/81gS4GaVDAL._SL1440_.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">French Kiwi Juice</h5>
+                    <p class="card-text">Vincent Fenton known as French Kiwi Juice is a is a French multi-instrumentalist, singer, and musician from Tours. He is known for his solo live performances, where he does live loopings through Abeltone and showcases his multi-instrumentalist skills. His self-titled debut album, French Kiwi Juice, was released on March 3, 2017.</p><br>
+                    <div class="video" align="center">
+                        <iframe src="https://www.youtube.com/embed/pfU0QORkRpY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" width="70%"  >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://media.pitchfork.com/photos/5ea205f03577a40009ece414/1:1/w_600/What%20Kinda%20Music_Tom%20Misch%20and%20Yussef%20Dayes.jpg" class="card-img-top">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Tom Misch</h5>
+                    <p class="card-text">Thomas Abraham Misch (born 25 June 1995) is an English musician and producer.He began releasing music on SoundCloud in 2012 and released his debut studio album Geography in 2018.In 2020, he released his second studio album "What Kinda Music" in collaboration with English jazz drummer Yussef Dayes, distributed through Blue Note Records.</p><br>
+                    <div class="video" align="center">
+                        <iframe src="https://www.youtube.com/embed/M1N_wbhAfQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" width="70%"  >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/81H7d3hkI1L._SL1200_.jpg" class="card-img-top">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Anderson Paak</h5>
+                    <p class="card-text">Brandon Paak Anderson (born February 8, 1986), known professionally as Anderson Paak. He is an American singer, songwriter, rapper, record producer and multi-instrumentalist from Oxnard, California. Apart from his solo career, Anderson is also one-half of NxWorries, alongside record producer Knxwledge. He is frequently accompanied by the band The Free Nationals, who play a variety of instruments such as electric guitar, bass, piano, keyboards and drums and also serve as backing vocalists.</p>
+                    <div class="video" align="center">
+                        <iframe src="https://www.youtube.com/embed/ferZnZ0_rSM"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section>
+        <div class="container">
+            <h1 class="genero" align="center"><b> Indie - Folk </b></h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201805/489890558.jpg" class="d-block w-100" width="50%" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://fanart.tv/api/download.php?type=download&image=10194&section=2" class="d-block w-100" width="50%" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://s3.amazonaws.com/heights-photos/wp-content/uploads/2015/04/05004312/sufjan-2.jpg" class="d-block w-100" width="50%" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card mb-3" width="70%"  >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://external-preview.redd.it/hxtGlfClZ8jgfD0BelmPj44GoGASf_OMEZQpCq0XTcc.jpg?auto=webp&s=8f65e9ff82b7a53b198fb9a6f8b437a3ab628a14" class="card-img-top" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bon Iver</h5>
+                    <p class="card-text">Bon Iver is an American indie folk band founded in 2006 by singer-songwriter Justin Vernon. Vernon released Bon Iver's debut album, For Emma, Forever Ago, independently in July 2007. The majority of that album was recorded while Vernon spent three months isolated in a cabin in western Wisconsin. In 2012, the band won the Grammy Award for Best Alternative Music Album for their eponymous album Bon Iver.</p><br>
+                    <div class="video" align="center">
+                        <iframe src="https://www.youtube.com/embed/BMue0xUbV5g"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" width="70%"  >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://nbhap.com/wp-content/uploads//2016/03/Kings-Of-Convenience-Quiet-Is-The-New-Loud.jpg" class="card-img-top">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Kings of Convenience</h5>
+                    <p class="card-text">Kings of Convenience is an indie folk-pop duo from Bergen, Norway. Consisting of Erlend Øye and Eirik Glambek Bøe. Øye and Bøe were both born in 1975 (Øye on November 21 and Bøe on October 25) and have known each other since they met in the same class at school. Their first musical collaboration was a comedic rap about a teacher.
+                    </p><br>
+                    <div class="video" align="center">
+                        <iframe src="https://www.youtube.com/embed/aFwZDNsG-Os"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" width="70%"  >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src=https://images-na.ssl-images-amazon.com/images/I/81opDuEYnGL._SL1500_.jpg class="card-img-top">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Sufjan Stevens</h5>
+                    <p class="card-text">Sufjan Stevens (born July 1, 1975) is an American singer, songwriter, and multi-instrumentalist. He has released eight solo studio albums and multiple collaborative albums with other artists. Stevens has received Academy Award and Grammy Award nominations. He employs various instruments, often playing many of them himself on the same recording. Stevens' music is also known for exploring various themes, particularly religion and spirituality.</p><br>
+                    <div class="video" align="center">
+                        <iframe src="https://www.youtube.com/embed/lJJT00wqlOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <h4 align="center"> Pagina desarrollada por Daniel Bicand</h4>
+    </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</html>
